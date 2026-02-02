@@ -1,5 +1,5 @@
 {
-  "name": "web-to-markdown",
+  "name": "@ai-tools/wechat-spy",
   "version": "1.0.0",
   "description": "抓取网页并转换为Markdown文件",
   "main": "dist/index.js",
