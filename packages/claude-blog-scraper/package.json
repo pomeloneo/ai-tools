@@ -1,0 +1,27 @@
+{
+  "name": "claude-blog-scraper",
+  "version": "1.0.0",
+  "description": "Scraper for Claude blogs",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "turndown": "^7.1.2",
+    "fs-extra": "^11.1.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.1",
+    "@types/turndown": "^5.0.1",
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0"
+  }
+}
