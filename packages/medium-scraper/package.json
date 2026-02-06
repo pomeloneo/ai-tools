@@ -1,0 +1,31 @@
+{
+  "name": "medium-scraper",
+  "version": "1.0.0",
+  "description": "Scrape Medium articles to Notion-friendly Markdown ZIP",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@mozilla/readability": "^0.5.0",
+    "archiver": "^7.0.0",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "fs-extra": "^11.2.0",
+    "jsdom": "^24.0.0",
+    "puppeteer": "^22.0.0",
+    "turndown": "^7.1.3",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/archiver": "^6.0.2",
+    "@types/fs-extra": "^11.0.4",
+    "@types/jsdom": "^21.1.6",
+    "@types/node": "^20.0.0",
+    "@types/turndown": "^5.0.4",
+    "@types/yargs": "^17.0.32",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
